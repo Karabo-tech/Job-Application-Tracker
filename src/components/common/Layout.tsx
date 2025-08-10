@@ -41,7 +41,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
       }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '1200px', margin: '0 auto' }}>
-          <h1 style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold' }}>JobTracker Pro</h1>
+          <h1 style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold' }}>Job Application Tracker - (JAT)</h1>
           
           <nav style={{ display: 'flex', gap: '1rem' }}>
             {navigation.map(({ key, label, icon: Icon }) => (
