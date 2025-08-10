@@ -7,7 +7,7 @@ export const LandingPage: React.FC = () => (
     <div style={{ marginBottom: '3rem' }}>
       <Briefcase size={64} style={{ color: '#1976d2', marginBottom: '1rem' }} />
       <h1 style={{ fontSize: '3rem', fontWeight: 'bold', color: '#333', marginBottom: '1rem' }}>
-        Job Application Tracker - (APT)
+        Job Application Tracker - (JAT)
       </h1>
       <p style={{ fontSize: '1.25rem', color: '#666', lineHeight: 1.6 }}>
         Take control of your job search journey with our comprehensive application tracking system.

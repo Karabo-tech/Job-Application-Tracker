@@ -20,7 +20,7 @@ export const LoginPage: React.FC = () => {
   return (
     <div style={{ maxWidth: '400px', margin: '2rem auto' }}>
       <Card>
-        <h2 style={{ textAlign: 'center', marginBottom: '2rem', color: '#333' }}>Welcome Back</h2>
+        <h2 style={{ textAlign: 'center', marginBottom: '2rem', color: '#333' }}>Welcome</h2>
         <form onSubmit={handleSubmit}>
           <Input
             label="Username"
@@ -41,7 +41,7 @@ export const LoginPage: React.FC = () => {
             </div>
           )}
           <Button type="submit" size="lg" style={{ width: '100%' }}>
-            Sign In
+            Login
           </Button>
         </form>
         <p style={{ textAlign: 'center', marginTop: '1rem', color: '#666' }}>
