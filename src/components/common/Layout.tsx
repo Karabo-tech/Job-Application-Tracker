@@ -25,13 +25,13 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   const navigation = [
     { key: 'landing', label: 'About', icon: FileText },
-    { key: 'home', label: 'My Jobs', icon: Briefcase },
+    { key: 'home', label: 'My-Jobs', icon: Briefcase },
   ];
 
   return (
     <div style={{
       minHeight: '100vh',
-      backgroundColor: '#38beefc1',
+      backgroundColor: '#bfc2c3c1',
       fontFamily: 'system-ui, -apple-system, sans-serif'
     }}>
       <header style={{
