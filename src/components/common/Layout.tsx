@@ -31,7 +31,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div style={{
       minHeight: '100vh',
-      backgroundColor: '#f5f5f5',
+      backgroundColor: '#38beefc1',
       fontFamily: 'system-ui, -apple-system, sans-serif'
     }}>
       <header style={{
