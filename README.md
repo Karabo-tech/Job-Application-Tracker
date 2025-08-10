@@ -1,14 +1,38 @@
-# React + TypeScript + Vite
+# ReactTS Job Application Tracker
 
-## JobTracker Pro - Job Application Tracker
-# A modern React TypeScript application for tracking job applications with Takealot-inspired design and localStorage persistence.
-🚀 Features
+A simple, responsive React TypeScript app to track job applications with user authentication, CRUD operations, search, filter, and sort functionality. Uses JSON Server as a mock backend.
 
-User Authentication - Secure login and registration system
-Job Management - Complete CRUD operations for job applications
-Advanced Filtering - Search, filter by status, and sort by date
-URL Parameters - All filters and searches reflected in URL
-Responsive Design - Works perfectly on all devices
-Local Storage - Data persistence between sessions
-Protected Routes - Secure access to user data
-Status Tracking - Visual status indicators with color coding
+## Features
+
+- User registration and login  
+- Add, edit, delete job applications  
+- Search by company or role (URL query reflected)  
+- Filter by status and sort by date (URL query reflected)  
+- Status color coding (Applied, Interviewed, Rejected)  
+- Responsive design for all devices  
+- Protected routes and 404 page  
+- LocalStorage for session persistence  
+
+## Tech Stack
+
+- React + TypeScript  
+- React Router  
+- JSON Server  
+- Axios  
+- CSS Modules  
+
+ Usage
+Register a new user
+
+Log in with your credentials
+
+Add new job applications with detailed info
+
+Edit or delete existing job applications
+
+Use search, filter, and sort functionalities on the home page
+
+Click on a job to view more details on the Job Page
+
+Log out to end your session
+
