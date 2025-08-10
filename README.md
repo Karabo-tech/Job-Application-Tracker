@@ -21,18 +21,15 @@ A simple, responsive React TypeScript app to track job applications with user au
 - Axios  
 - CSS Modules  
 
- Usage
-Register a new user
+# Usage
 
-Log in with your credentials
+ -Register a new user
+ -Log in with your credentials
+ -Add new job applications with detailed info
+ -Edit or delete existing job applications
+ -Use search, filter, and sort functionalities on the home page
+ -Click on a job to view more details on the Job Page
+ -Log out to end your session
 
-Add new job applications with detailed info
-
-Edit or delete existing job applications
-
-Use search, filter, and sort functionalities on the home page
-
-Click on a job to view more details on the Job Page
-
-Log out to end your session
-
+# HOST LINK
+## https://job-application-tracker-dgph-git-main-karabos-projects-78a3c9a9.vercel.app/
